@@ -67,7 +67,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="24.800000000000001" y="36.431784107946029"/>
+            <point key="canvasLocation" x="-55" y="34"/>
         </scene>
         <!--Music ListVC View Controller-->
         <scene sceneID="qwE-Ey-jIE">
@@ -101,6 +101,9 @@
                                     <constraint firstAttribute="width" constant="113" id="Ode-Y6-Sl5"/>
                                 </constraints>
                                 <state key="normal" title="Load 3rd Screen"/>
+                                <connections>
+                                    <action selector="load3rdScreenPressed:" destination="nfV-Eh-PFU" eventType="touchUpInside" id="N6c-ui-ZH3"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -112,12 +115,12 @@
                         </constraints>
                     </view>
                     <connections>
-                        <segue destination="TfV-G1-m4C" kind="showDetail" id="VcV-tZ-y2V"/>
+                        <segue destination="TfV-G1-m4C" kind="showDetail" identifier="PlaySongVC" id="VcV-tZ-y2V"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jDW-TH-3hB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="781.60000000000002" y="35.532233883058474"/>
+            <point key="canvasLocation" x="849" y="-75"/>
         </scene>
         <!--Play SongVC-->
         <scene sceneID="Jxc-ne-vyC">
@@ -132,19 +135,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Song Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uha-ZJ-xI9">
-                                <rect key="frame" x="185" y="501" width="0.0" height="0.0"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="142.5" y="96" width="90.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uha-ZJ-xI9" firstAttribute="centerX" secondItem="1um-3D-8hv" secondAttribute="centerX" id="MfW-FL-THO"/>
+                            <constraint firstItem="uha-ZJ-xI9" firstAttribute="top" secondItem="f7s-42-WP5" secondAttribute="bottom" constant="76" id="tUD-KR-1zg"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="songTitleLbl" destination="uha-ZJ-xI9" id="bBs-oL-Q78"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bqm-z5-KAZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1519" y="36"/>
+            <point key="canvasLocation" x="1621.5999999999999" y="-75.112443778110944"/>
         </scene>
     </scenes>
 </document>

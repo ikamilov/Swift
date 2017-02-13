@@ -1,4 +1,4 @@
 ##SwappingTheScreen
-![Alt text](https://github.com/ikamilov/Swift/tree/master/SwappingSwap/ScreenShots/login.png)
-![Alt text](https://github.com/ikamilov/Swift/tree/master/SwappingSwap/ScreenShots/musiclist.png)
-![Alt text](https://github.com/ikamilov/Swift/tree/master/SwappingSwap/ScreenShots/playsong.png)
+![alt tag](https://github.com/ikamilov/Swift/blob/master/SwappingSwap/ScreenShots/login.png)
+![alt tag](https://github.com/ikamilov/Swift/blob/master/SwappingSwap/ScreenShots/musiclist.png)
+![alt tag](https://github.com/ikamilov/Swift/blob/master/SwappingSwap/ScreenShots/playsong.png)

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090EF79D1E5224DC00B1B055 /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090EF79C1E5224DC00B1B055 /* PlaySongVC.swift */; };
 		095DBAD91E48E0640030908D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095DBAD81E48E0640030908D /* AppDelegate.swift */; };
 		095DBADB1E48E0640030908D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095DBADA1E48E0640030908D /* LoginVC.swift */; };
 		095DBADE1E48E0640030908D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095DBADC1E48E0640030908D /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		090EF79C1E5224DC00B1B055 /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 		095DBAD51E48E0640030908D /* SwappingSwap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwappingSwap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		095DBAD81E48E0640030908D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		095DBADA1E48E0640030908D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				095DBAE11E48E0640030908D /* LaunchScreen.storyboard */,
 				095DBAE41E48E0640030908D /* Info.plist */,
 				095DBB061E48E2800030908D /* MusicListVCViewController.swift */,
+				090EF79C1E5224DC00B1B055 /* PlaySongVC.swift */,
 			);
 			path = SwappingSwap;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				095DBADB1E48E0640030908D /* LoginVC.swift in Sources */,
+				090EF79D1E5224DC00B1B055 /* PlaySongVC.swift in Sources */,
 				095DBB071E48E2800030908D /* MusicListVCViewController.swift in Sources */,
 				095DBAD91E48E0640030908D /* AppDelegate.swift in Sources */,
 			);
@@ -509,6 +513,7 @@
 				095DBAFF1E48E0650030908D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		095DBB001E48E0650030908D /* Build configuration list for PBXNativeTarget "SwappingSwapTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +522,7 @@
 				095DBB021E48E0650030908D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		095DBB031E48E0650030908D /* Build configuration list for PBXNativeTarget "SwappingSwapUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +531,7 @@
 				095DBB051E48E0650030908D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
